@@ -38,7 +38,7 @@ export const putDb = async (content) => {
 
 // TODO: Add logic for a method that gets all the content from the database
 export const getDb = async () => {
-  console.error('GET from DB');
+  console.error('GET from DB implemented');
 
   // Creates connection 
   const jateDb = await openDB('jate', 1);
