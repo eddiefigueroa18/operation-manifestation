@@ -26,7 +26,7 @@ warmStrategyCache({
 
 registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
-// TODO: Implement asset caching
+
 // This implements asset caching
 // We define the callback function that is going to filter the requests that we want to cache (JS and CSS files)
 registerRoute(({ request }) => ['style', 'script', 'worker'].includes(request.destination),
