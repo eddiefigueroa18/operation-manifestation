@@ -24,7 +24,7 @@ module.exports = () => {
       }),
 
 
-      InjectManifest({ // Allows user to use a customized service worker along with create a manifest of all the file that are pre cached when the app starts running.
+      new InjectManifest({ // Allows user to use a customized service worker along with create a manifest of all the file that are pre cached when the app starts running.
         swSrc: './src-sw.js',
         swDest:'./src-sw.js',
       }),
