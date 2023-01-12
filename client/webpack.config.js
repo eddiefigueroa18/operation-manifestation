@@ -17,7 +17,7 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
 
-// TODO: Add and configure workbox plugins for a service worker and manifest file.
+    
     plugins: [
       new HtmlWebpackPlugin({ // Uses the index.html file as the template for the plugin
         template:'./index.html',
