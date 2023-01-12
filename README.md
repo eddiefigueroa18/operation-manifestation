@@ -31,7 +31,7 @@ This application allows a user to write notes and code using a local database wh
 Open the app in the browser after doing the installation steps. Write whatever you want on the browser version. Then you can hit the install button and it will download an offline version where you can add whatever you want offline. 
 
 ## Deployed Application 
-Link to deployed application on Heroku:
+Link to deployed application on Heroku: https://jate-manifestation.herokuapp.com/
 
 ## Preview 
 Web version:
